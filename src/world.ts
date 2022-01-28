@@ -15,6 +15,8 @@ export class BrowserWorld extends World {
         super(options);
         this.browser = BrowserWorld.browser;
         this.page = BrowserWorld.page;
+
+        this.page.setViewportSize({width: 1440, height: 836});
     }
 }
 
